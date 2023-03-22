@@ -1,0 +1,6 @@
+
+.idea/
+.nuxt/
+dist
+node_modules/
+.output/nitro.json
