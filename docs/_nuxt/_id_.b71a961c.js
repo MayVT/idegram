@@ -1,1 +1,0 @@
-import{y as t,r as a,b as o,e as r,t as n,u,o as c}from"./entry.cc7e652e.js";const i={__name:"[id]",setup(l){const e=t(),s=a(e.params.id);return(m,p)=>(c(),o("div",null,[r("h1",null,"Esto es el artículo numero "+n(u(s)),1)]))}};export{i as default};
