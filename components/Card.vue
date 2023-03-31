@@ -2,12 +2,11 @@
   <article class="mb-3">
     <!-- imagen -->
     <div class="ratio ratio-1x1">
-      <img :src="urlPublic" alt="" class="img object-fit-cover border rounded">
+      <img @click="addLike" :src="urlPublic" alt="" class="img object-fit-cover border rounded">
     </div>
     <!-- Controles -->
     <div class="d-flex justify-content-end">
       <button @click="addLike" class="btn btn-outline-primary p-3" aria-current="page">❤ {{ likes }}</button>
-      <button class="btn btn-outline-primary p-3">💬</button>
     </div>
   </article>
 </template>

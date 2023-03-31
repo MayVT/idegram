@@ -2,7 +2,7 @@
   <div>
     <Loading :show="verLoading" />
     <h1>Imágenes subidas</h1>
-    <button type="button" class="btn btn-outline-success p-3" @click="showModalNewPhoto = true">+</button>
+    <button type="button" class="btn btn-outline-success p-3" @click="showModalNewPhoto = true">Subir foto</button>
     <Card v-for="photo in photos" :url="photo.url" :likes="photo.likes" :id="photo.id" />
     <div class="modal" tabindex="-1" :class="{'d-block': showModalNewPhoto}">
       <div class="modal-dialog">
