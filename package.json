@@ -6,7 +6,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "github": "rm -r docs && npx nuxi generate && mv .output/public docs"
+    "github": "rm -r docs && npx nuxi generate && mv .output/public docs && touch docs/.nojekyll"
   },
   "devDependencies": {
     "nuxt": "^3.3.1"
