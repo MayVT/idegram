@@ -1,12 +1,12 @@
 <template>
-  <article class="mb-3">
+  <article class="mb-5">
     <!-- imagen -->
     <div class="ratio ratio-1x1">
       <img @click="addLike" :src="urlPublic" alt="" class="img object-fit-cover border rounded">
     </div>
     <!-- Controles -->
     <div class="d-flex justify-content-end">
-      <button @click="addLike" class="btn btn-outline-primary p-3" aria-current="page">❤ {{ likes }}</button>
+      <button @click="addLike" class="btn btn-outline-primary p-3 mt-3 text-center" aria-current="page">❤ {{ likes }}</button>
     </div>
   </article>
 </template>
