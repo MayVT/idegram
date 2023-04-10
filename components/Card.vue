@@ -1,7 +1,7 @@
 <template>
   <article class="mb-5">
     <!-- imagen -->
-    <div class="ratio ratio-1x1">
+    <div class="ratio ratio-1x1 w-50">
       <img @click="addLike" :src="urlPublic" alt="" class="img object-fit-cover border rounded">
     </div>
     <!-- Controles -->
